@@ -1,0 +1,259 @@
+/* FRIST PAGE */
+.firstpage-main {
+    background-image: url('C:/Users/Chin/Desktop/app/src/Components/images/firstpagebg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.firstpage-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    color: white; 
+    text-align: center;
+}
+
+.firstpage-content h1 {
+    font-family: 'Palanquin', sans-serif; 
+    font-size: 55px;
+    margin: 0 0 10px 0; 
+}
+
+.firstpage-content h6 {
+    font-family: 'Palanquin', sans-serif; 
+    font-size: 25px;
+    margin-top: 5px; 
+    font-weight: normal; 
+}
+
+/* SECOND PAGE */
+.secondpage-main {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+    height: 250vh;  
+    margin: 100px;
+}
+
+.secondpage-content1 p{
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif; 
+    font-size: 18px;
+    
+}
+
+.secondpage-content1 h6{
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif; 
+    font-size: 28px;
+    margin: 0 0 50px 0;  
+}
+
+.secondpage-content3 p{
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Nunito', sans-serif; 
+  font-size: 18px;
+  
+}
+
+.secondpage-content3 h6{
+  display: flex;
+  justify-content: center;
+  font-family: 'Nunito', sans-serif; 
+  font-size: 28px;
+  margin: 0 0 50px 0;  
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 16px;
+  width: 400px;  
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);  
+  transform: translateY(-2px);  
+  transition: transform 0.3s, box-shadow 0.3s;  
+}
+
+.card:hover {
+  transform: scale(1.05) translateY(-2px);  
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.card-image-container {
+  overflow: hidden;
+  height: 200px;  
+}
+
+.card-image {
+  width: 85%;
+  height: 100%;
+  object-fit: cover;
+}
+.card-content {
+  padding: 12px;
+  text-align: left; /* Align text to the left */
+}
+
+.card-title {
+  font-size: 1.5em; 
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.card-price {
+  color: #666;
+  text-align: left;
+}
+
+.place-container {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 16px;
+  width: 400px;
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+  transition: transform 0.3s, box-shadow 0.3s, transform-origin 0.3s; 
+}
+
+.place-container:hover {
+  transform: scale(1.05);  
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.2);  
+}
+
+.place-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.7);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+/* THIRD PAGE */
+
+.thirdpage-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100%;  
+  margin: 0; 
+  background-color: #3D1111;
+}
+
+.thirdpage-content1 p{
+  display: flex;
+  justify-content: center;
+  font-family: 'Nunito', sans-serif; 
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.thirdpage-content1 h6{
+  display: flex;
+  justify-content: center;
+  font-family: 'Nunito', sans-serif; 
+  font-size: 28px;
+  margin: 0 0 50px 0; 
+  color: #ffffff; 
+}
+.thirdpage-content2 {
+  display: flex;
+  justify-content: space-between;  
+  flex-wrap: wrap; 
+  margin: 16px; 
+}
+
+.image-top-card {
+  background-color: #fff;
+  display: inline-block;
+  flex: 1; 
+  margin: 8px;  
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.image-container {
+  overflow: hidden;
+  align-items: center;
+}
+
+.image-container img {
+  width: 85%;
+  height: 150px;  
+  object-fit: contain;
+}
+
+.card3-content {
+  padding: 16px;
+  text-align: center;
+}
+
+.card3-title {
+  font-size: 18px;
+  margin-bottom: 8px;
+  font-family: 'Nunito', sans-serif;
+  color: #3D1111;
+}
+
+.card3-description {
+  font-size: 14px;
+  color: #3D1111;
+  font-family: 'Nunito', sans-serif;
+}
+
+.fourthpage-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100%;  
+  margin: 0; 
+  background-color: #ffffff;
+}
+
+.fourthpage-content1 p{
+  display: flex;
+  justify-content: center;
+  font-family: 'Nunito', sans-serif; 
+  font-size: 18px;
+  color: #3D1111;
+}
+
+.fourthpage-content1 h6{
+  display: flex;
+  justify-content: center;
+  font-family: 'Nunito', sans-serif; 
+  font-size: 28px;
+  margin: 0 0 50px 0; 
+  color: #3D1111; 
+}

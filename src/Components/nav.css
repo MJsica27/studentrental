@@ -1,0 +1,92 @@
+/* styles.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #3D1111;
+    font-family: 'Nunito', sans-serif; 
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .left-section, .center-section, .right-section {
+    display: flex;
+    align-items: center;
+  }
+
+  img{
+    height: 40px;
+    width: 60px;
+    margin: 7px 140px 7px 30px;
+  }
+  .center-section a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;  
+  }
+  .center-section a::after {
+    content: '';
+    display: block;
+    height: 3px;  
+    border-radius: 15px;
+    width: 0;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 50%;  
+    transform: translateX(-50%); 
+    transition: width 0.3s ease;  
+  }
+  
+  .center-section a:hover::after,
+  .center-section a:active::after,
+  .center-section a.active::after {
+    width: 100%;
+  }
+  
+  
+  .right-section a {
+    margin-right: 0px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  .bell {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 0px;
+  }
+
+  .loginbtn {
+    text-align: center;
+    margin: 0;
+  }
+  
+  .loginbtn a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #F28500;
+    border-radius: 5px;
+    height: 23px;
+    width: 57px;
+    transition: background-color 0.3s ease;  
+  }
+  
+  .loginbtn a:hover {
+    background-color: #FFA733;  
+  }
+  

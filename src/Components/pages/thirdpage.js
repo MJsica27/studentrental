@@ -1,8 +1,8 @@
 import React from "react";
-import trust from 'C:/Users/Chin/Desktop/app/src/Components/images/trust.png';
-import home from 'C:/Users/Chin/Desktop/app/src/Components/images/home.png';
-import money from 'C:/Users/Chin/Desktop/app/src/Components/images/money.png';
-import clock from 'C:/Users/Chin/Desktop/app/src/Components/images/clock.png';
+import trust from '../../Components/images/trust.png';
+import home from '../../Components/images/home.png';
+import money from '../../Components/images/money.png';
+import clock from '../../Components/images/clock.png';
 
 export function ThirdPage() {
   return (

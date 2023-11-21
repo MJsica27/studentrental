@@ -3,9 +3,9 @@ import './nav.css';
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
-import logo from 'C:/Users/Chin/Desktop/app/src/Components/images/logo.png';
-import bell from 'C:/Users/Chin/Desktop/app/src/Components/images/bell.png';
-import profile from 'C:/Users/Chin/Desktop/app/src/Components/images/profile.png';
+import logo from '../Components/images/logo.png';
+import bell from '../Components/images/bell.png';
+import profile from '../Components/images/profile.png';
 
 const Nav = () => {
   const location = useLocation();

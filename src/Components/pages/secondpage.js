@@ -1,16 +1,16 @@
 import "./pagestyle.css";
 import React, { useState } from 'react';
-import apart1 from 'C:/Users/Chin/Desktop/app/src/Components/images/apartment.png';
-import apart2 from 'C:/Users/Chin/Desktop/app/src/Components/images/aparment2.png';
-import apart3 from 'C:/Users/Chin/Desktop/app/src/Components/images/apartment3.png';
-import apart4 from 'C:/Users/Chin/Desktop/app/src/Components/images/apartment4.png';
-import apart5 from 'C:/Users/Chin/Desktop/app/src/Components/images/aparment5.png';
-import apart6 from 'C:/Users/Chin/Desktop/app/src/Components/images/aparment6.png';
-import place1 from 'C:/Users/Chin/Desktop/app/src/Components/images/place1.png';
-import place2 from 'C:/Users/Chin/Desktop/app/src/Components/images/place2.png';
-import place3 from 'C:/Users/Chin/Desktop/app/src/Components/images/place3.png';
-import place4 from 'C:/Users/Chin/Desktop/app/src/Components/images/place4.png';
-import place5 from 'C:/Users/Chin/Desktop/app/src/Components/images/place5.jpg';
+import apart1 from '../../Components/images/apartment.png';
+import apart2 from '../../Components/images/aparment2.png';
+import apart3 from '../../Components/images/apartment3.png';
+import apart4 from '../../Components/images/apartment4.png';
+import apart5 from '../../Components/images/aparment5.png';
+import apart6 from '../../Components/images/aparment6.png';
+import place1 from '../../Components/images/place1.png';
+import place2 from '../../Components/images/place2.png';
+import place3 from '../../Components/images/place3.png';
+import place4 from '../../Components/images/place4.png';
+import place5 from '../../Components/images/place5.jpg';
 
 // import { FaLocationDot } from 'react-icons/fa';
 

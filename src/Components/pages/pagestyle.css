@@ -1,6 +1,6 @@
 /* FRIST PAGE */
-.firstpage-main {
-    background-image: url('C:/Users/Chin/Desktop/app/src/Components/images/firstpagebg.png');
+.firstpage-main { 
+    background-image: url('../../Components/images/firstpagebg.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;

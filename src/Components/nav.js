@@ -6,9 +6,12 @@ import { Link as ScrollLink } from 'react-scroll';
 import logo from '../Components/images/logo.png';
 import bell from '../Components/images/bell.png';
 import profile from '../Components/images/profile.png';
+// import { useHistory } from 'react-router-dom';
 
 const Nav = () => {
   const location = useLocation();
+
+
 
   return (
     <nav className="navbar">
@@ -46,10 +49,11 @@ const Nav = () => {
 
       <div className="right-section">
         <div className="loginbtn">
-          <a href="/login">Log In</a>
+          <a href='/login'>Login</a>
         </div>
 
         <img src={bell} alt="Logo" className="bell" />
+        <a href="/details">Details</a>
 
         <img src={profile} alt="User Profile" className="profile" />
       </div>
